@@ -1,6 +1,6 @@
 /*
    Version adapted by Patrick Hixenbaugh to use the RTC's own Temperature Sensor
-   pdhixenbaugh@gmail.com
+   patrick.hixenbaugh@gmail.com
    
    For the Riffle Datalogger
    Sketch logs the Temperature from the RTC at an interval.
