@@ -1,13 +1,16 @@
 /*
    Version adapted by Patrick Hixenbaugh to use the RTC's own Temperature Sensor
+   pdhixenbaugh@gmail.com
    
    For the Riffle Datalogger
-   Sketch logs the Temperature and Humidity from a SHT21 sensor
-   at an interval.
+   Sketch logs the Temperature from the RTC at an interval.
    It uses the RTC as a scheduler by using an Alarm and Interrupt
    pin to wake up the ATmega at an interval.
    It logs to the SD card and outputs time and values in the Serial
    Monitor
+   
+   This sketch has some code referencing a humidity sensor which has been
+   commented out.
 
    This Sketch uses the SdFat.h library instead of the SD.h library that is
    is included in the IDE due to a bug which doesn't allow the SD card to sleep.
