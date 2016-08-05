@@ -20,10 +20,26 @@ Arduino Sketches for "Riffle Getting Started"
 
 - Use the 'set_rtc.ino' sketch to set the RTC ('Real Time Clock') on the Riffle to the current time.
 
-## Blink Test
+### Blinky!
 
-## Setting the Real Time Clock
+### Setting the Real Time Clock
 
-## Temperature Logging
+- Using the Arduino IDE, ompile and load the the 'set_rtc.ino' code onto the Riffle.
+
+- Follow the prompts to set the year, month, day, hour, and second for the on-board RTC.  Once successful, the RTC will maintain the time as long as the coin cell is inserted.
+ 
+### Temperature Logging
+
+(Note: for this sketch, you'll need to set the Real Time Clock (see above) in order to get sensible timestamps.  If you don't, the time stamps will still increment, but the initial time will default to Jan 1, 1970.)
+
+- Using the Arduino IDE, compile the 'temp_logger.ino' code above, and load it onto the Riffle board.
+
+- The Riffle should start logging temperature values to the microSD card. These temperature values come from hardware inside the RTC. 
 
 
+
+
+
+
+
+ 
