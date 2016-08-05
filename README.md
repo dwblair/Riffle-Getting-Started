@@ -10,11 +10,11 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 ## Hardware prep
 
-- Insert a microSD card and a coin cell into the appropriate locations on the Riffle.
+- Insert a microSD card and a coin cell into the Riffle.
 
-- Insert a lithium ion battery into the appropriate JST connector on the Riffle (labeled 'Lith/USB' on the back of the board).
+- Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
-- Make sure that the switch on the Riffle is switched to the side labeled 'Lith/USB'.
+- Make sure that the switch on the Riffle is switched to the side labeled 'Lith/USB' (label is next to switch).
 
 ## Software prep
 
