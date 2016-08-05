@@ -107,7 +107,7 @@ void loop() {
   }
 
   // sleep in low power mode  
-  enterSleep(nextAlarm); //Sleep until saved time
+  enterSleep(nextAlarm); //Sleep until next scheduled wakeup time
 }
 
 ////////// Support functions
