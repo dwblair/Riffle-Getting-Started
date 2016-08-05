@@ -12,13 +12,13 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - You'll need a Riffle board, 3.7 V Lithium Ion battery, and CR1220 coin cell battery.
 
-<img scr="pics/parts.jpg">
+<img scr="pics/parts.jpg" width=200>
 
 - Insert a microSD card and a CR1220 coin cell into the appropriate slots on the Riffle.
 
-<img src="pics/insert-MicroSD.jpg">
+<img src="pics/insert-MicroSD.jpg" width=200>
 
-<img src="pics/insert-coinBattery.jpg">
+<img src="pics/insert-coinBattery.jpg" width=200>
 
 - Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
