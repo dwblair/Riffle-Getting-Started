@@ -26,7 +26,7 @@
 
 - Follow the prompts to set the year, month, day, hour, and second for the on-board RTC.  Once successful, the RTC will maintain the time as long as the coin cell is inserted.
 
-## Temperature Logging
+## Logging values to the microSD card
 
 (Note: for this sketch, you'll need to set the Real Time Clock (see above) in order to get sensible timestamps.  If you don't, the time stamps will still increment, but the initial time will default to Jan 1, 1970.)
 
