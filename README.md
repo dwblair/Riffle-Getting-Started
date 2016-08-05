@@ -6,6 +6,7 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](test).
 
+ **Note for experienced Arduino users:** In general, the Riffle behaves like an Arduino Uno in the Arduino IDE; but its USB-Serial chip (the CH340) **requires a special driver** on Mac and Windows (Linux supported by default). See [Software prep](test) below.
 
 # Quick Start
 
