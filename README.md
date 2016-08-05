@@ -1,9 +1,10 @@
-# Contents
+#Welcome!
 
-- [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start), for those familiar with the Arduino platform. 
+This is a set of code and instructions for getting started with the [Riffle] datalogger.  Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card.   
 
-- [Step-by-Step Instructions](test), for more a more detailed description of how to get up and running.
+If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section to get up and running quickly.
 
+If you would prefer a more detailed description, check out the [Step-by-Step Instructions](test)
 
 # Quick Start
 
