@@ -20,10 +20,10 @@ Arduino Sketches for "Riffle Getting Started"
 
 - Use the 'set_rtc.ino' sketch to set the RTC ('Real Time Clock') on the Riffle to the current time.
 
-### Blink Test
+## Blink Test
 
-### Setting the Real Time Clock
+## Setting the Real Time Clock
 
-### Temperature Logging
+## Temperature Logging
 
 
