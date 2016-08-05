@@ -10,7 +10,7 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 ## Hardware prep
 
-- Insert a microSD card and a coin cell into the Riffle.
+- Insert a microSD card and a CR1220 coin cell into the appropriate slots on the Riffle.
 
 - Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
@@ -42,6 +42,6 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - Set DEBUG = 0 in temp_logger.ino. This will reduce power by turning off the Serial interface.  It will also mean that the RTC is not set by the System clock.
 
-- Use the 'Gen' JST connector on the Riffle board.  This power input doesn't have a protective diode, thus avoiding a diode-associated voltage drop, and can power the Riffle down to lower battery voltages.
+- Use the 'GEN' JST connector on the Riffle board.  This power input doesn't have a protective diode, thus avoiding a diode-associated voltage drop, and can power the Riffle down to lower battery voltages.
 
 - Test out different microSD cards;  some of them 'sleep' at lower power settings than others.

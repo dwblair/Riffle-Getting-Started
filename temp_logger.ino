@@ -26,21 +26,46 @@ float bat_v;
 float temp;
 
 void setup() {
-  if (DEBUG) Serial.begin(9600);
+
+
+  if (DEBUG) Serial.begin(9600); // only set up Serial if in DEBUG mode
+
+  // enable any I2C devices
   Wire.begin();
+
+  // start the RTC
   rtc.begin();
-  pinMode(rtc_int, INPUT_PULLUP); //rtc needs the interrupt line to be pulled up
-  if (DEBUG) rtc.adjust(DateTime((__DATE__), (__TIME__))); //Adjust automatically
+
+  // prepare the RTC hardware for the interrupt functionality
+  pinMode(rtc_int, INPUT_PULLUP); 
+
+  // if in DEBUG mode, adjust the RTC time using the system clock
+  if (DEBUG) rtc.adjust(DateTime((__DATE__), (__TIME__)));
+
+  // set the led blinking pin to OUTPUT mode
   pinMode(led, OUTPUT);
+
+  // enable the SD card for writing
   pinMode(chipSelect, OUTPUT);
+
+  // turn off the battery monitor circuitry for now, to save power
   pinMode(bat_v_enable, OUTPUT);
   digitalWrite(bat_v_enable, HIGH); //Turn off Battery Reading
+
+  // put the SD card powering pin in the proper mode
   pinMode(sd_pwr_enable, OUTPUT);
 }
 
 void loop() {
-  DateTime now = rtc.now(); //get the current time
+
+
+  // get the current time from the RTC
+  DateTime now = rtc.now();
+
+  // set up the next wake time 
   DateTime nextAlarm = DateTime(now.unixtime() + interval_sec);
+
+
   if (DEBUG) {
     Serial.print("Now: ");
     Serial.print(now.unixtime());
@@ -48,22 +73,30 @@ void loop() {
     Serial.println(nextAlarm.unixtime());
     Serial.flush();
   }
+
+  // get the battery voltage  
   bat_v = getBat_v(bat_v_pin, bat_v_enable); //takes 20ms
+
   if (DEBUG) {
     Serial.print("Battery Voltage is: ");
     Serial.print(bat_v);
     Serial.println(" Volts.");
     Serial.flush();
   }
+
+  // get the RTC temp sensor value 
   rtc.convertTemperature(); //prep temp registers from RTC
   temp = rtc.getTemperature(); //Read that value
+
   if (DEBUG) {
     Serial.print("RTC Temp is: ");
     Serial.print(temp);
     Serial.println(" C.");
     Serial.flush();
   }
-  writeToSd(now.unixtime(), temp, bat_v); //Write to the Sd card
+
+  // write to SD card 
+  writeToSd(now.unixtime(), temp, bat_v); 
   if (DEBUG) {
     Serial.print("SD Card Written. Sleeping for ");
     Serial.print(interval_sec);
@@ -72,6 +105,8 @@ void loop() {
     Serial.println("---------------------------------");
     Serial.flush();
   }
+
+  // sleep in low power mode  
   enterSleep(nextAlarm); //Sleep until saved time
 }
 
