@@ -27,12 +27,12 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 ## Blinking the onboard LED 
 
-- Compile and load the 'blink.ino' sketch onto the Riffle.
-- The code is very similar to the standard Arduino IDE 'blink' test, except that for the Riffle, the pin connected to the onboard LED is pin 9, rather than the typical pin 13 on the UNO. This is reflected in the blink.ino sketch.
+- Compile and load the 'blink.ino' sketch onto the Riffle, selecting 'Arduino UNO' as the 'Board' version in the Arduino IDE.
+- This code is very similar to the standard Arduino IDE 'blink' test, except that for the Riffle, the pin connected to the onboard LED is pin 9, rather than the typical pin 13 on the UNO. This is reflected in the blink.ino sketch.
 
 ## Setting the Real Time Clock
 
-- Using the Arduino IDE, ompile and load the the 'set_rtc.ino' code onto the Riffle.
+- Using the Arduino IDE, compile and load the the 'set_rtc.ino' code onto the Riffle, using 'Arduino UNO' as the 'Board' version in the Arduino IDE. 
 
 - Follow the prompts to set the year, month, day, hour, and second for the on-board RTC.  Once successful, the RTC will maintain the time as long as the coin cell is inserted.
 
@@ -40,7 +40,7 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 (Note: for this sketch, you'll need to set the Real Time Clock (see above) in order to get sensible timestamps.  If you don't, the time stamps will still increment, but the initial time will default to Jan 1, 1970.)
 
-- Using the Arduino IDE, compile the 'temp_logger.ino' code above, and load it onto the Riffle board.
+- Using the Arduino IDE, compile the 'temp_logger.ino' code above, and load it onto the Riffle board, using 'Arduino UNO' as the 'Board' version in the Arduino IDE.
 
 - The Riffle should start logging temperature values to the microSD card. These temperature values come from hardware inside the RTC. 
 
