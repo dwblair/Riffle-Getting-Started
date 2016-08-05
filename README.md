@@ -2,7 +2,7 @@
 
 This is a set of code and instructions for getting started with the [Riffle](test) datalogger.  Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card.   
 
-- If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly.
+- If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE, but you'll need to install a **special driver** (see [Software prep](test), below)  in order to program the device over USB.  
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](test).
 
