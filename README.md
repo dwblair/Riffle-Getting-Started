@@ -1,6 +1,9 @@
-This repository contains basic code for getting started with the Riffle datalogger version 0.1.8.  For those familiar with the Arduino, the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section is probably sufficient documentation for getting to the point of logging temperature values onto a microSD card using the Riffle.
+# Contents
 
-For those unfamiliar with the Arduino, consult the [wiki] for more detailed step-by-step instructions, with pictures.
+- [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start), for those familiar with the Arduino platform. 
+
+- [Step-by-Step Instructions](test), for more a more detailed description of how to get up and running.
+
 
 # Quick Start
 
