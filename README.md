@@ -15,7 +15,10 @@
 
 - Copy all of the folders in 'arduino_libraries' into the 'libraries' folder inside the 'sketchbook' folder associated with the Arduino IDE install.  These libraries are necessary for running the 'temp_logger.ino' and 'set_rtc.ino' sketches in this repo.  
 
-## Blinky!
+## First test: blinky!
+
+- Complie and load the 'blink.ino' sketch onto the Riffle.
+- The code is very similar to the standard Arduino IDE 'blink' test, except that for the Riffle, the pin connected to the onboard LED is pin 9, rather than the typical pin 13 on the UNO. This is reflected in the code.
 
 
 ## Logging data: temperature
