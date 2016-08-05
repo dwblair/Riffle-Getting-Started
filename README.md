@@ -4,9 +4,9 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. 
 
-- **Note to experienced users:** In general, the Riffle behaves like an Arduino Uno in the Arduino IDE; but its USB-Serial chip (the CH340) **requires a special driver** on Mac and Windows (Linux supported by default). See [Software prep](test) below. 
+- **For experienced Arduino users:** You might find the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section sufficient to get up and running quickly.  In general, the Riffle behaves like an Arduino Uno in the Arduino IDE; but its USB-Serial chip (the CH340) **requires a special driver** on Mac and Windows (Linux supported by default). See [Software prep](test) below. 
 
-- If you would prefer a more detailed description to guide you in setting up your Riffle, check out the [Step-by-Step Instructions](test).
+- **For those who would prefer step-by-step instructions** for setting up your Riffle, please check out the [Step-by-Step Instructions](test).
 
 
 # Quick Start
