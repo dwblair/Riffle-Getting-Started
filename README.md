@@ -8,8 +8,6 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - If you would prefer a more detailed description to guide you in setting up your Riffle, check out the [Step-by-Step Instructions](test).
 
-Enjoy!
-
 
 # Quick Start
 
