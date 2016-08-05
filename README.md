@@ -22,11 +22,11 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
-<img src="pics/battery.jpg" width=300>
-
 - Make sure that the switch on the Riffle is switched to the side labeled 'Lith/USB' (label is next to switch).
 
 <img src="pics/batt_switch_led.png" width=300>
+
+<img src="pics/labels.png" width=300>
 
 ## Software prep
 
