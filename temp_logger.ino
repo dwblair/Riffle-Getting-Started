@@ -65,7 +65,7 @@ void loop() {
   // set up the next wake time 
   DateTime nextAlarm = DateTime(now.unixtime() + interval_sec);
 
-
+  // print out, if in DEBUG mode
   if (DEBUG) {
     Serial.print("Now: ");
     Serial.print(now.unixtime());
@@ -77,6 +77,7 @@ void loop() {
   // get the battery voltage  
   bat_v = getBat_v(bat_v_pin, bat_v_enable); //takes 20ms
 
+   // print out, if in DEBUG mode
   if (DEBUG) {
     Serial.print("Battery Voltage is: ");
     Serial.print(bat_v);
@@ -88,6 +89,8 @@ void loop() {
   rtc.convertTemperature(); //prep temp registers from RTC
   temp = rtc.getTemperature(); //Read that value
 
+  
+  // print out, if in DEBUG mode
   if (DEBUG) {
     Serial.print("RTC Temp is: ");
     Serial.print(temp);
@@ -96,7 +99,9 @@ void loop() {
   }
 
   // write to SD card 
-  writeToSd(now.unixtime(), temp, bat_v); 
+  writeToSd(now.unixtime(), temp, bat_v);
+
+  // print out, if in DEBUG mode
   if (DEBUG) {
     Serial.print("SD Card Written. Sleeping for ");
     Serial.print(interval_sec);
