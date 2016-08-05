@@ -30,18 +30,18 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 - Compile and load the 'blink.ino' sketch onto the Riffle, selecting 'Arduino UNO' as the 'Board' version in the Arduino IDE.
 - This code is very similar to the standard Arduino IDE 'blink' test, except that for the Riffle, the pin connected to the onboard LED is pin 9, rather than the typical pin 13 on the UNO. This is reflected in the blink.ino sketch.
 
-## Setting the Real Time Clock
-
-- Using the Arduino IDE, compile and load the the 'set_rtc.ino' code onto the Riffle, using 'Arduino UNO' as the 'Board' version in the Arduino IDE. 
-
-- Follow the prompts to set the year, month, day, hour, and second for the on-board RTC.  Once successful, the RTC will maintain the time as long as the coin cell is inserted.
-
 ## Logging values to the microSD card
-
-(Note: for this sketch, you'll need to set the Real Time Clock (see above) in order to get sensible timestamps.  If you don't, the time stamps will still increment, but the initial time will default to Jan 1, 1970.)
 
 - Using the Arduino IDE, compile the 'temp_logger.ino' code above, and load it onto the Riffle board, using 'Arduino UNO' as the 'Board' version in the Arduino IDE.
 
-- The Riffle should start logging temperature values to the microSD card. These temperature values come from hardware inside the RTC. 
+- The Riffle should start logging temperature values to the microSD card. These temperature values come from the on-board RTC, and so may be affected by the temeprature of the board (which might slightly higher than ambient temperature, due to the operation of its circuitry). 
 
+- Note: the RTC will have its time set automatically to the system clock when it is programmed via the Arduino IDE.
 
+## Extending the battery lifetime
+
+- Set DEBUG = 0 in temp_logger.ino. This will reduce power by turning off the Serial interface.  It will also mean that the RTC is not set by the System clock.
+
+- Use the 'Gen' JST connector on the Riffle board.  This power input doesn't have a protective diode, thus avoiding a diode-associated voltage drop, and can power the Riffle down to lower battery voltages.
+
+- Test out different microSD cards;  some of them 'sleep' at lower power settings than others.
