@@ -89,7 +89,6 @@ void loop() {
   rtc.convertTemperature(); //prep temp registers from RTC
   temp = rtc.getTemperature(); //Read that value
 
-  
   // print out, if in DEBUG mode
   if (DEBUG) {
     Serial.print("RTC Temp is: ");
