@@ -10,7 +10,7 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 ## Hardware prep
 
-- You'll need a Riffle board, 3.7 V Lithium Ion battery, and CR1220 coin cell battery.
+- For basic datalogging, ou'll need a Riffle board, a 3-6 volt battery (3.7 V Lithium Ion battery shown), and CR1220 coin cell battery.  Protoboards (shown) are optional. 
 
 <img src="pics/parts.jpg" width=400>
 
