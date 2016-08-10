@@ -81,13 +81,29 @@ Notes from people who've done this:
 
 Here are some screenshots of the process:
 
-<img src="pics/mac_install_1.png"><img src="pics/mac_install_2.png"><img src="pics/mac_install_3.png">
+<img src="pics/mac_install_1.png"><img src="pics/mac_install_2.png"><img src="pics/mac_install_3.png"><img src="pics/mac_install_4.png">
 
 ### Windows
 
+Download and install the driver located [here](http://raysfiles.com/drivers/ch341ser.exe ), following the prompts.
+
 ### Linux
 
-# Riffle programming basics: blink
+No driver needed for Linux.
+
+# Riffle programming basics
+
+- Connect the Riffle to a USB port via the microUSB connector on your board.
+- Make sure that the Riffle switch is set to "USB/Lith".
+- Open the Arduino IDE.
+- Board selection:  From the 'Tools' menu, select 'Board: Arduino/Genuino Uno'
+- Port selection: in the 'Tools' menu, you must select the 'port' that the Riffle is connected to.  The precise name of this port will change depending on the operating system.  Here is a snapshot of a properly selected port on a Mac:  <img src="pics/tools_port.png">.  
+
+Note re: driver:  if you are unable to locate a Riffle in the "Ports" menu, the USB-Serial driver may not have installed properly. Some people have found that restarting the computer helps. 
+
+- Select "File: E
+ 
+<img src="pics/arduino_blink.png">
 
 
 # Basic datalogging
