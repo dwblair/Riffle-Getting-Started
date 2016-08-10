@@ -101,9 +101,17 @@ No driver needed for Linux.
 
 Note re: driver:  if you are unable to locate a Riffle in the "Ports" menu, the USB-Serial driver may not have installed properly. Some people have found that restarting the computer helps. 
 
-- Select "File: E
- 
+- Select "File: Examples: 01 Basics: Blink"
+
 <img src="pics/arduino_blink.png">
+
+- Edit every instance of '13' to '9' in the code.  (The standard Arduino UNO has its indicator LED connected to pin 13; on the Riffle it is connected to pin 9). 
+ 
+<img src="pics/blink_edit.png">
+
+- Compile and load the code using the 'right arrow' button:
+
+<img src="pics/compile_load.png">
 
 
 # Basic datalogging
