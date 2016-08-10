@@ -54,7 +54,7 @@ A slot for a microSD card is at the end of the board, for data storage
 
 A coin cell battery (of type CR1220) is at the center of the board.  This coin cell is used to power the on-board real-time clock (RTC).
 
-<img src="pics/insert-MicroSD.jpg">
+<img src="pics/insert-coinBattery.jpg">
 
 # Basic test of hardware: blink
 
