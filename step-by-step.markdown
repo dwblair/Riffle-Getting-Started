@@ -50,33 +50,40 @@ A slot for a microSD card is at the end of the board, for data storage
 
 A coin cell battery (of type CR1220) is at the center of the board.  This coin cell is used to power the on-board real-time clock (RTC).
 
-# Basic test of hardware
+# Basic test of hardware: blink
 
-Riffle pre-programmed with "blink" code that blinks the LED every 1 second.
-Plug the Riffle into USB power to test it. Does it blink? It works!
+The Riffle comes pre-programmed with "blink" code that blinks the indicator LED every 1 second.
+
+- Plug the Riffle into USB power, via the microUSB port.
+- Make sure that the onboard switch is set to "USB/Lith".
+- You should see the Riffle blinking every 1 second or so.
+
+If there is no blink, check your USB power source.  If your power source seems to be okay, there may be a problem with the Riffle hardware, or it may have been programmed improperly.
 
 # Install the Arduino IDE
 
-Download the program from arduino.cc.  Version 1.6.5 or later
-If you've installed the driver correctly, then the Tools: Ports menu should tell you whether there is a device connected
+- Download the Arduino IDE (version 1.6.5 or later) for your operating system (Mac, Windows, Linux) from [the arduino website](http://arduino.cc), and install it.
+
+# Install the USB-Serial driver
+
+The Riffle communicates with a laptop or computer via a USB-Serial chip that requires that a special driver be installed on the computer.  
+
+### Mac
+
+### Windows
+
+### Linux
+
+# Basic programming test: blink rate
 
 
-# Installing the USB-Serial driver
-
-Windows
-Mac
-Restart computer
+# Basic datalogging
 
 
-# Install the necessary Arduino libraries
+### Install the necessary Arduino libraries
 
 Download from the github repo
 Drag all folders into the sketchbook / libraries folder
-
-# Compile and load the 'Blink' code
-blink
-
-# Basic datalogging
 Open the datalogger sketch
 Compile and load it
 Log for a while
