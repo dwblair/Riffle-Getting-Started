@@ -99,7 +99,7 @@ No driver needed for Linux.
 - Board selection:  From the 'Tools' menu, select 'Board: Arduino/Genuino Uno'
 - Port selection: in the 'Tools' menu, you must select the 'port' that the Riffle is connected to.  The precise name of this port will change depending on the operating system.  Here is a snapshot of a properly selected port on a Mac:  <img src="pics/tools_port.png">.  
 
-Note re: driver:  if you are unable to locate a Riffle in the "Ports" menu, the USB-Serial driver may not have installed properly. Some people have found that restarting the computer helps. 
+(**Note about the usb-serial driver**:  if you are unable to locate a Riffle in the "Ports" menu, the USB-Serial driver may not have installed properly. Some people have found that restarting the computer helps.)
 
 - Select "File: Examples: 01 Basics: Blink"
 
@@ -108,6 +108,10 @@ Note re: driver:  if you are unable to locate a Riffle in the "Ports" menu, the 
 - Edit every instance of '13' to '9' in the code.  (The standard Arduino UNO has its indicator LED connected to pin 13; on the Riffle it is connected to pin 9). 
  
 <img src="pics/blink_edit.png">
+
+- Change the 'delay' rate to 500 milliseconds (or something significantly different from 1000 milliseconds, which is the blinking rate that the Riffle comes pre-programmed to display).
+
+<img src="pics/blink_rate.png">
 
 - Compile and load the code using the 'right arrow' button:
 
