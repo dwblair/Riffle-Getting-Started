@@ -64,7 +64,9 @@ If there is no blink, check your USB power source.  If your power source seems t
 
 # Install the Arduino IDE
 
-- Download the Arduino IDE (version 1.6.5 or later) for your operating system (Mac, Windows, Linux) from [the arduino website](http://arduino.cc), and install it.
+- Download the Arduino IDE (version 1.6.8 or later) for your operating system (Mac, Windows, Linux) from [the arduino website](http://arduino.cc), and install it.
+
+<img src="pics/arduino_download.png">
 
 # Install the USB-Serial driver
 
