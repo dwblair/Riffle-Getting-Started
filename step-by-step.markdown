@@ -19,14 +19,36 @@ Finally, we cover the steps necesary for programming a Riffle to do basic datalo
 
 # Riffle Hardware 
 
-Battery port options.  Voltage range.  Lithium Ion battery charger port.  General battery charger port.
-MicroUSB -- for powering board, programming board, charging lithium ion battery if it's plugged in.
-Power LED indicates plugged in to USB power / charging
-Blinking LED.  
-MicroSD card slot
-Inputs / outputs on end of board
-Pins on bottom of board
-Coin cell battery CR1220 (for RTC)
+### Power sources
+
+The Riffle can use power sources with voltages between 3.7 Volts and 6 Volts. 
+
+- It can be powered via the microUSB port on the end of the Riffe. 
+- It can be powered via either of the two JST ports on the end of the Riffle.  One of these ports is labeled "USB/Lith", and should only be used with a 3.7 V Lithium Ion battery.  The other is labeled "Gen", for 'general', and can be used with any voltage source (any battery chemistry) between 3.7 and 6 Volts.  
+
+### Power switch
+
+The power switch on the Riffle can be in two positions: 
+
+- "USB / Lith", which draws power from the USB port and/or the "USB/Lith" JST battery port;
+- "Gen", which draws power from the "Gen" battery port.
+
+Since the Riffle is only connected to one of these two power sources at a time, the switch acts as an 'on/off' switch.
+
+### LEDs
+
+There is an LED at the end of the board to indicated that the Riffle is plugged into USB power.
+
+There is also an LED in the middle of the board.  It is connected to pin #9, and can be used as an indicator LED.
+
+
+### MicroSD card slot
+
+A slot for a microSD card is at the end of the board, for data storage
+
+### Coin cell battery slot
+
+A coin cell battery (of type CR1220) is at the center of the board.  This coin cell is used to power the on-board real-time clock (RTC).
 
 # Basic test of hardware
 
