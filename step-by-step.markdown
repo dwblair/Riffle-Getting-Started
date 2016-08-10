@@ -159,4 +159,7 @@ No driver needed for Linux.
 
 - Compile and load the sketch onto the Arduino.
 
+### Notes on datalogging
+
+- The code of temp_logger.ino sets the real time clock (RTC) time to your computer system's time every time the Arduino IDE uploads to the Riffle. This time should then persist as long as the CR1220 battery is powering the RTC (whether or not there is another power source for the Riffle).
 
