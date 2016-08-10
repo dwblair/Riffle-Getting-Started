@@ -1,4 +1,23 @@
-# Riffle Hardware Overview 
+# Overview
+
+This repo will cover:
+
+- A quick overview of the hardware: switches, indicator lights, and battery ports 
+- A basic test of the hardware (does the on-board LED blink?)
+
+As well as the required steps for setting yourself up to program a Riffle: 
+
+- Installing the Arduino IDE on a desktop or laptop computer
+- Installing a required driver for communicating between your computer and the Riffle
+- A simple 'blink' test of programming capability
+
+Finally, we cover the steps necesary for programming a Riffle to do basic datalogging:
+
+- Downloading Riffle datalogging software from github
+- Installing the required Arduino IDE libraries
+- Compiling the code and loading the code onto the Riffle
+
+# Riffle Hardware 
 
 Battery port options.  Voltage range.  Lithium Ion battery charger port.  General battery charger port.
 MicroUSB -- for powering board, programming board, charging lithium ion battery if it's plugged in.
