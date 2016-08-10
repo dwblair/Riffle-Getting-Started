@@ -58,7 +58,7 @@ The Riffle comes pre-programmed with "blink" code that blinks the indicator LED 
 - Make sure that the onboard switch is set to "USB/Lith".
 - You should see the Riffle blinking every 1 second or so.
 
-<img src="pics/blink.gif">
+<img src="pics/blink.gif" width=200>
 
 If there is no blink, check your USB power source.  If your power source seems to be okay, there may be a problem with the Riffle hardware, or it may have been programmed improperly.
 
@@ -81,7 +81,7 @@ Notes from people who've done this:
 
 Here are some screenshots of the process:
 
-<img src="pics/mac_install_1.png">
+<img src="pics/mac_install_1.png"><img src="pics/mac_install_2.png"><img src="pics/mac_install_3.png">
 
 ### Windows
 
