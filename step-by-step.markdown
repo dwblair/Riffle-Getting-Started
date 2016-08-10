@@ -66,15 +66,26 @@ If there is no blink, check your USB power source.  If your power source seems t
 
 # Install the USB-Serial driver
 
-The Riffle communicates with a laptop or computer via a USB-Serial chip that requires that a special driver be installed on the computer.  
+The Riffle communicates with a laptop or computer via a USB-Serial chip (called the 'CH340') that requires that a special driver be installed on your computer (if you're using Mac or Windows -- no special driver required for Linux).  
 
 ### Mac
+
+Follow the instructions [here](http://www.instructables.com/id/Arduino-Nano-CH340/) for downloading and installing the CH340 driver for Mac.  
+
+Notes from people who've done this:
+
+- Once you've downloaded the ch34xinstaller.pkg file, you'll need to unzip it -- this may happen automatically.  
+- If following the Instructables linked above and downloading the driver from the linked source there, and you are running OS X Yosemite, try downloading the driver without the additional step of opening a terminal and typing in the special code, as it has worked without that step (at least for one person).
+
+Here are some screenshots of the process:
+
+<img src="pics/mac_install_1.png">
 
 ### Windows
 
 ### Linux
 
-# Basic programming test: blink rate
+# Riffle programming basics: blink
 
 
 # Basic datalogging
