@@ -72,7 +72,7 @@ The Riffle communicates with a laptop or computer via a USB-Serial chip (called 
 
 ### Mac
 
-Follow the instructions [here](http://www.instructables.com/id/Arduino-Nano-CH340/) for downloading and installing the CH340 driver for Mac.  
+Follow the instructions [here](http://www.instructables.com/id/Arduino-Nano-CH340/) for downloading and installing the CH340 driver for Mac. The instructions link to a download to the Mac driver; we have also placed a copy of the latest driver [here](usb-serial-drivers/CH341SER_MAC.ZIP).  
 
 Notes from people who've done this:
 
@@ -85,7 +85,7 @@ Here are some screenshots of the process:
 
 ### Windows
 
-Download and install the driver located [here](http://raysfiles.com/drivers/ch341ser.exe ), following the prompts.
+Download and install the driver [here](usb-serial-drivers/ch341ser.exe), following the prompts.
 
 ### Linux
 
@@ -117,9 +117,9 @@ No driver needed for Linux.
 
 <img src="pics/compile_load.png">
 
+- After the code has uploaded, you should see that the blink rate on the Riffle has changed to the blink rate you have programmed it to.
 
 # Basic datalogging
-
 
 ### Install the necessary Arduino libraries
 
