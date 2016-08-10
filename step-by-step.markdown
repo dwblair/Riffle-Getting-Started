@@ -3,7 +3,7 @@
 This repo will cover:
 
 - A quick [overview of the Riffle hardware](./step-by-step.markdown#riffle-hardware): switches, indicator lights, and battery ports 
-- A basic test of the hardware (does the on-board LED blink?)
+- A basic ['Blink' test of the hardware](./step-by-step.markdown#basice-test-of-hardware): (does the on-board LED blink?)
 
 As well as the required steps for setting yourself up to program a Riffle: 
 
@@ -28,7 +28,8 @@ Inputs / outputs on end of board
 Pins on bottom of board
 Coin cell battery CR1220 (for RTC)
 
-# Basic test of hardware: Blinky
+# Basic test of hardware
+
 Riffle pre-programmed with "blink" code that blinks the LED every 1 second.
 Plug the Riffle into USB power to test it. Does it blink? It works!
 
