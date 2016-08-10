@@ -23,7 +23,7 @@ Finally, we cover the steps necessary for programming a Riffle to do basic datal
 
 The Riffle can use power sources with voltages between 3.7 Volts and 6 Volts. 
 
-- It can be powered via the microUSB port on the end of the Riffe. 
+- It can be powered via the microUSB port on the end of the Riffle. 
 - It can be powered via either of the two JST ports on the end of the Riffle.  One of these ports is labeled "USB/Lith", and should only be used with a 3.7 V Lithium Ion battery.  The other is labeled "Gen", for 'general', and can be used with any voltage source (any battery chemistry) between 3.7 and 6 Volts.  
 
 ### Power switch
