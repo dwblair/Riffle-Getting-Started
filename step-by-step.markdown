@@ -58,6 +58,8 @@ The Riffle comes pre-programmed with "blink" code that blinks the indicator LED 
 - Make sure that the onboard switch is set to "USB/Lith".
 - You should see the Riffle blinking every 1 second or so.
 
+<img src="pics/blink.gif">
+
 If there is no blink, check your USB power source.  If your power source seems to be okay, there may be a problem with the Riffle hardware, or it may have been programmed improperly.
 
 # Install the Arduino IDE
