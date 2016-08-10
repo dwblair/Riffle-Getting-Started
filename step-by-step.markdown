@@ -11,7 +11,7 @@ As well as the required steps for setting yourself up to program a Riffle:
 - [Installing a required driver](./step-by-step.markdown#installing-the-usb-serial-driver) for communicating between your computer and the Riffle
 - A simple 'blink' test of programming capability
 
-Finally, we cover the steps necesary for programming a Riffle to do basic datalogging:
+Finally, we cover the steps necessary for programming a Riffle to do basic datalogging:
 
 - Downloading Riffle datalogging software from github
 - Installing the required Arduino IDE libraries
@@ -158,6 +158,8 @@ No driver needed for Linux.
 - Use 'File: Open' to open the 'temp_logger.ino' sketch.
 
 - Compile and load the sketch onto the Arduino.
+
+- [MORE DETAIL RE: WHAT TO EXPECT FROM DATALOGGER FILE HERE -- pending finalized temp_logger.ino code]
 
 ### Notes on datalogging
 
