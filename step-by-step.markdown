@@ -33,22 +33,28 @@ The power switch on the Riffle can be in two positions:
 - "USB / Lith", which draws power from the USB port and/or the "USB/Lith" JST battery port;
 - "Gen", which draws power from the "Gen" battery port.
 
+[PIC NEEDED]
+
 Since the Riffle is only connected to one of these two power sources at a time, the switch acts as an 'on/off' switch.
 
 ### LEDs
 
-There is an LED at the end of the board to indicated that the Riffle is plugged into USB power.
+There is an LED at the end of the board to indicated that the Riffle is plugged into USB power. [PIC NEEDED]
 
-There is also an LED in the middle of the board.  It is connected to pin #9, and can be used as an indicator LED.
+There is also an LED in the middle of the board.  It is connected to pin #9, and can be used as an indicator LED. [PIC NEEDED]
 
 
 ### MicroSD card slot
 
-A slot for a microSD card is at the end of the board, for data storage
+A slot for a microSD card is at the end of the board, for data storage 
+
+<img src="pics/insert-MicroSD.jpg">
 
 ### Coin cell battery slot
 
 A coin cell battery (of type CR1220) is at the center of the board.  This coin cell is used to power the on-board real-time clock (RTC).
+
+<img src="pics/insert-MicroSD.jpg">
 
 # Basic test of hardware: blink
 
