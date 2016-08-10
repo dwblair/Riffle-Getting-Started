@@ -121,12 +121,34 @@ No driver needed for Linux.
 
 # Basic datalogging
 
+### Prepare the hardware
+
+- Insert a Lithium-Ion battery into the 'USB/Lith' JST port.
+
+- Insert a CR1220 coin battery into the coin battery slot.
+
+- Insert a microUSB card into the microUSB slot.
+
+- Make sure your Riffle is connected to your computer via USB, and that the power switch is turned to "USB/Lith'.
+
 ### Install the necessary Arduino libraries
 
-Download from the github repo
-Drag all folders into the sketchbook / libraries folder
-Open the datalogger sketch
-Compile and load it
-Log for a while
-Turn off device and check contents on card
+-  In order to get the Arduino libraries needed to run the example datalogging code, it's easiest to download the entire contents of [this](https://github.com/dwblair/Riffle-Getting-Started/) github repository by clicking on "Clone/download".  
+
+- Create a new folder on your computer for the files that are unzipped from this repository, and copy the files into that folder.
+
+- Find out where your Arduino 'sketchbook' folder is.  You can do this by going to File: Preferences, 
+
+<img src="pics/sketchbook.png">
+
+- In your sketchbook folder, create a folder named 'libraries'.
+
+- Drag all of the folders in the "arduino_libraries" folder you downloaded from github into your 'libraries' folder.
+
+- Close and re-open the Arduino IDE.
+
+- Use 'File: Open' to open the 'temp_logger.ino' sketch.
+
+- Compile and load the sketch onto the Arduino.
+
 
