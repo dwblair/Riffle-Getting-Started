@@ -3,12 +3,12 @@
 This repo will cover:
 
 - A quick [overview of the Riffle hardware](./step-by-step.markdown#riffle-hardware): switches, indicator lights, and battery ports 
-- A basic ['Blink' test of the hardware](./step-by-step.markdown#basice-test-of-hardware): (does the on-board LED blink?)
+- A basic ['Blink' test of the hardware](./step-by-step.markdown#basic-test-of-hardware): (does the on-board LED blink?)
 
 As well as the required steps for setting yourself up to program a Riffle: 
 
-- Installing the Arduino IDE on a desktop or laptop computer
-- Installing a required driver for communicating between your computer and the Riffle
+- [Installing the Arduino IDE](./step-by-step.markdown#installing-the-arduino-ide) on a desktop or laptop computer
+- [Installing a required driver](./step-by-step.markdown#installing-the-usb-serial-driver) for communicating between your computer and the Riffle
 - A simple 'blink' test of programming capability
 
 Finally, we cover the steps necesary for programming a Riffle to do basic datalogging:
@@ -39,7 +39,7 @@ Download the program from arduino.cc.  Version 1.6.5 or later
 If you've installed the driver correctly, then the Tools: Ports menu should tell you whether there is a device connected
 
 
-# Installing the USB-Serial chip (Ch340) driver
+# Installing the USB-Serial driver
 
 Windows
 Mac
