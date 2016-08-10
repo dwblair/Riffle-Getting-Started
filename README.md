@@ -35,14 +35,9 @@ This is a set of code and instructions for getting started with the [Riffle](tes
 
 - Copy all of the folders in 'arduino_libraries' into the 'libraries' folder inside the 'sketchbook' folder associated with the Arduino IDE install.  These libraries are necessary for running the 'temp_logger.ino' and 'set_rtc.ino' sketches in this repo.  
 
-## Blinking the onboard LED 
-
-- Compile and load the 'blink.ino' sketch onto the Riffle, selecting 'Arduino UNO' as the 'Board' version in the Arduino IDE.
-- This code is very similar to the standard Arduino IDE 'blink' test, except that for the Riffle, the pin connected to the onboard LED is pin 9, rather than the typical pin 13 on the UNO. This is reflected in the blink.ino sketch.
-
 ## Logging values to the microSD card
 
-- Using the Arduino IDE, compile the 'temp_logger.ino' code above, and load it onto the Riffle board, using 'Arduino UNO' as the 'Board' version in the Arduino IDE.
+- Using the Arduino IDE, compile the 'temp_logger.ino' code from the "example_sketches" folder in this repo, and load it onto the Riffle board, using 'Arduino UNO' as the 'Board' version in the Arduino IDE.
 
 - The Riffle should start logging temperature values to the microSD card. These temperature values come from the on-board RTC, and so may be affected by the temeprature of the board (which might slightly higher than ambient temperature, due to the operation of its circuitry). 
 
