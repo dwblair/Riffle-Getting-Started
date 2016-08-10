@@ -2,7 +2,7 @@
 
 This repo will cover:
 
-- A quick overview of the hardware: switches, indicator lights, and battery ports 
+- A quick [overview of the Riffle hardware](./step-by-step.markdown#riffle-hardware): switches, indicator lights, and battery ports 
 - A basic test of the hardware (does the on-board LED blink?)
 
 As well as the required steps for setting yourself up to program a Riffle: 
