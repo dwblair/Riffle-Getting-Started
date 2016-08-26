@@ -15,7 +15,7 @@
    inkscape:version="0.48.4 r9939"
    width="2592"
    height="1456"
-   sodipodi:docname="IMG_20160826_103833215.jpg">
+   sodipodi:docname="switch_setup.svg">
   <metadata
      id="metadata5619">
     <rdf:RDF>
@@ -71,20 +71,17 @@
      inkscape:window-height="934"
      id="namedview5615"
      showgrid="false"
-     inkscape:zoom="0.32627304"
-     inkscape:cx="1255.9108"
-     inkscape:cy="772.75886"
+     inkscape:zoom="0.65254607"
+     inkscape:cx="956.57578"
+     inkscape:cy="738.57141"
      inkscape:window-x="156"
      inkscape:window-y="89"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg5613" />
-  <g
-     id="g6516">
-    <image
-       y="-12.259671"
-       x="-30.649178"
-       id="image5621"
-       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+  <image
+     width="1148.4238"
+     height="645.10223"
+     xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
 HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
 MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAWwCiADASIA
 AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
@@ -6765,61 +6762,57 @@ xnNNySeOKUk9qSAccdutICBR1ozVAKrY4oLHcfSm/wAWO1P3YBBpMBAT1H5UEk0gHpzQWA5IP4UI
 B696UjFRh8cggj0NO8w4xigBRSA80m7mnUAhe1I6HbkH8KCaUZ29e1CBiKeBzQxwaaOhNOGMHIoY
 BnJ9qRhldoIUk9SM0pGB1ppIB5POKSGf/9k=
 "
-       height="1456"
-       width="2592" />
-    <rect
-       y="1131.1188"
-       x="88.882622"
-       height="174.7003"
-       width="1069.6562"
-       id="rect5773"
-       style="opacity:0.34235295;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.41800001;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text5741"
-       y="1200.7251"
-       x="147.4433"
-       style="font-size:54.62727737px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="1200.7251"
-         x="147.4433"
-         id="tspan5743"
-         sodipodi:role="line">Battery plugged into &quot;Gen&quot; JST input</tspan><tspan
-         id="tspan5745"
-         y="1269.0092"
-         x="147.4433"
-         sodipodi:role="line">(label on bottom of board)</tspan></text>
-    <g
-       transform="translate(67.428187,-42.908848)"
-       id="g6511">
-      <rect
-         style="opacity:0.34235295;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.35868499;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect5773-3"
-         width="1121.8192"
-         height="122.65601"
-         x="770.79706"
-         y="90.549484" />
-      <text
-         xml:space="preserve"
-         style="font-size:64.53397369px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="804.21887"
-         y="174.93317"
-         id="text5741-1"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="804.21887"
-           y="174.93317"
-           id="tspan5745-6">Switch pushed to &quot;USB/Lith&quot;</tspan></text>
-    </g>
-    <path
-       inkscape:connector-curvature="0"
-       id="path6301"
-       d="M 327.06033,1099.2943 273.59488,889.42692"
-       style="fill:none;stroke:#000000;stroke-width:5.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path6301-6"
-       d="m 1318.2032,191.09276 -2.7782,98.73698"
-       style="fill:none;stroke:#000000;stroke-width:3.78547716;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
-  </g>
+     id="image5621"
+     x="245.19341"
+     y="223.739" />
+  <rect
+     style="opacity:0.34235294999999999;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.18520106000000000;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect5773"
+     width="473.92697"
+     height="77.403542"
+     x="446.80225"
+     y="676.6936" />
+  <text
+     xml:space="preserve"
+     style="font-size:24.20342064px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="466.74841"
+     y="707.53369"
+     id="text5741"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan5743"
+       x="466.74841"
+       y="707.53369">Battery plugged into &quot;Gen&quot; JST input</tspan><tspan
+       sodipodi:role="line"
+       x="466.74841"
+       y="737.78796"
+       id="tspan5745">(label on bottom of board)</tspan></text>
+  <rect
+     style="opacity:0.34235295;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.14829078;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect5773-3"
+     width="432.68588"
+     height="54.355186"
+     x="630.1557"
+     y="250.27339" />
+  <text
+     xml:space="preserve"
+     style="font-size:28.59272766px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="644.96906"
+     y="287.66614"
+     id="text5741-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="644.96906"
+       y="287.66614"
+       id="tspan5745-6">Switch pushed to &quot;USB/Lith&quot;</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:2.43685603;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+     d="M 429.11588,689.09379 357.4489,625.28803"
+     id="path6301"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.6772114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+     d="m 842.82232,313.83728 -1.23092,43.74688"
+     id="path6301-6"
+     inkscape:connector-curvature="0" />
 </svg>
