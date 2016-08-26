@@ -2,7 +2,7 @@
 
 These libraries must be placed in the 'libraries' folder of your Arduino sketchbook folder.
 
-Note:  this snapshot of the libraries is known to work with Riffle 0.1.8.
+**Note**:  this snapshot of the libraries is known to work with Riffle 0.1.8.
 
 If you'd like to try updated versions of the libraries (or contribute to bug fixes / development), visit to original libraries below:
 
