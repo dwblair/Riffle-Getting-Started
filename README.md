@@ -8,7 +8,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
 
-- You can find some example Riffle sensor applications (temperature, pressure, etc) in the [wiki](https://github.com/dwblair/Riffle-Getting-Started/wiki) of this repository (add your own!).
+- If you'd like to try out some example Riffle sensor applications (temperature, pressure, etc) in the [wiki](https://github.com/dwblair/Riffle-Getting-Started/wiki) of this repository (add your own!).
 
 **Hardware notes**.  The [Riffle_328 hardware github repository](https://github.com/OpenWaterProject/riffle) contains the design files and Bill of Materials for the board.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).
 
