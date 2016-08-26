@@ -6,7 +6,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 **Versions of the Riffle**. [Ben Gamari](https://github.com/bgamari)'s original [Riffle design](https://github.com/bgamari/riffle) is based on an ARM Cortex-M4 chip, the Kinetis K20.  The K20 is a more powerful chip than the Atmel 328, but the K20 version of the Riffle doesn't currently have firmware compatible with the Arduino IDE.  The Riffle_328 design covered in this repository is intended to be as directly compatible with the Arduino IDE as possible.
 
-**Where do I start?**.  This repository will get you up and running with the Riffle_328:
+**Where do I start?**  This repository will get you up and running with the Riffle_328.  
 
 - If you already have experience using Arduino-compatible boards, you should probably just jump to the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE (you should select "Arduino UNO" as the "Board" in the IDE), but you'll need to install a **special driver** (see [Software prep](test), below) in order to program the device over USB if you're using Mac or Windows.  
 
