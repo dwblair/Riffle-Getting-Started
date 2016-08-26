@@ -1,10 +1,20 @@
 #Welcome!
 
-This is a set of code and instructions for getting started with the [Riffle](test) datalogger.  Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card.   
+This is a set of code and instructions for getting started with the Riffle_328 water monitor.  Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card. 
 
 - If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE (you should select "Arduino UNO" as the "Board" in the IDE), but you'll need to install a **special driver** (see [Software prep](test), below) in order to program the device over USB if you're using Mac or Windows.  
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
+
+# Quick Background on the Riffle
+
+The Riffle_328 has been developed through many contributions by members of the [Public Lab](http://publiclab.org) community.  For more information, see:
+
+- The main [Public Lab Riffle wiki](https://publiclab.org/wiki/riffle);
+- The [Riffle hardware github repository](https://github.com/OpenWaterProject/riffle): design files and BOM for the board;
+- All [posts and research notes](https://publiclab.org/search/riffle) related to the Riffle on Public Lab
+
+[Ben Gamari](https://github.com/bgamari)'s original [Riffle design](https://github.com/bgamari/riffle) is based on an ARM Cortex-M4 chip, the Kinetis K20.  It is a more powerful chip than the Atmel 328, but the firmware is not currently directly compatible with the Arduino IDE. 
 
 # Quick Start
 
