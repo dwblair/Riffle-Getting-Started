@@ -6,7 +6,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
 
-# Quick Background on the Riffle
+-----
 
 The Riffle_328 has been developed through many contributions by members of the [Public Lab](http://publiclab.org) community.  For more information, see:
 
