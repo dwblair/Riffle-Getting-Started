@@ -19,6 +19,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 - The main [Public Lab Riffle wiki](https://publiclab.org/wiki/riffle);
 - All [posts and research notes](https://publiclab.org/search/riffle) related to the Riffle on Public Lab;
 - The [Public Lab Water Quality Mailing list](https://groups.google.com/forum/#!forum/plots-waterquality).
+- The main Public Lab site: <a href="http://publiclab.org"><img src="pics/boots.png" width=100></a>
 
 ------
 
