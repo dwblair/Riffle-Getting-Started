@@ -21,7 +21,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 - It has MOSFET switches that can power down the microSD card, the external sensor power, and the battery measurement circuitry. 
 - Analog pins, Digital pins, Power, Ground, Battery voltage, and I2C and SPI buses are broken out on a 2x7 header at the end of the board, as follows:
 
-<img src="pics/riffle_pinout.png" width=100>
+<img src="pics/riffle_pinout.png" width=300>
 
 **Versions of the Riffle**. [Ben Gamari](https://github.com/bgamari)'s original [Riffle design](https://github.com/bgamari/riffle) is based on an ARM Cortex-M4 chip, the Kinetis K20.  The K20 is a more powerful chip than the Atmel 328, but the K20 version of the Riffle doesn't currently have firmware compatible with the Arduino IDE.  The Riffle_328 design covered in this repository is intended to be as directly compatible with the Arduino IDE as possible.
 
