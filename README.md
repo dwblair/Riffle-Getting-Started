@@ -48,11 +48,17 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 <img src="pics/insert-coinBattery.jpg" width=400>
 
+- The Riffle 328 ver 0.1.8 has two JST connectors for power inputs, a switch to choose between the two power inputs, and an indicator LED in the middle of the board (connected to pin 9):
+
+<img src="pics/labels.png" width=400>
+
 - Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
 - Make sure that the switch on the Riffle is switched to the side labeled 'Lith/USB' (label is next to switch).
 
-<img src="pics/labels.png" width=400>
+- When you're done, your setup should look like this:
+
+<img src="pics/switch_setup.png" width=400>
 
 ## Software prep
 
