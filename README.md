@@ -40,17 +40,17 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 - For basic datalogging, ou'll need a Riffle board, a 3-6 volt battery (3.7 V Lithium Ion battery shown), and CR1220 coin cell battery.  Protoboards (shown) are optional. 
 
-<img src="pics/parts.jpg" width=400>
+<img src="pics/parts.jpg" width=500>
 
 - Insert a microSD card and a CR1220 coin cell into the appropriate slots on the Riffle.
 
-<img src="pics/insert-MicroSD.jpg" width=400>
+<img src="pics/insert-MicroSD.jpg" width=500>
 
-<img src="pics/insert-coinBattery.jpg" width=400>
+<img src="pics/insert-coinBattery.jpg" width=500>
 
 - The Riffle 328 ver 0.1.8 has two JST connectors for power inputs, a switch to choose between the two power inputs, and an indicator LED in the middle of the board (connected to pin 9):
 
-<img src="pics/labels.png" width=400>
+<img src="pics/labels.png" width=500>
 
 - Insert a lithium ion battery into the 'Lith/USB' JST connector (JST connector labels are on the back side of the board).
 
@@ -58,7 +58,7 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 - When you're done, your setup should look like this:
 
-<img src="pics/switch_setup.png" width=400>
+<img src="pics/switch_setup.png" width=500>
 
 ## Software prep
 
