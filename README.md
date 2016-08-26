@@ -4,11 +4,11 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 **Where do I start?**  This repository will get you up and running with the Riffle_328.  
 
-- If you already have experience using Arduino-compatible boards, you should probably just jump to the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE (you should select "Arduino UNO" as the "Board" in the IDE), but you'll need to install a **special driver** (see [Software prep](test), below) in order to program the device over USB if you're using Mac or Windows.  
+- QUICK START.  If you already have experience using Arduino-compatible boards, you should probably just jump to the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE (you should select "Arduino UNO" as the "Board" in the IDE), but you'll need to install a **special driver** (see [Software prep](test), below) in order to program the device over USB if you're using Mac or Windows.  
 
-- If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
+- STEP-BY-STEP.  If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
 
-- If you'd like to try out some example Riffle sensor applications (temperature, pressure, etc) in the [wiki](https://github.com/dwblair/Riffle-Getting-Started/wiki) of this repository (add your own!).
+- EXAMPLES.  If you'd like to try out some example Riffle sensor applications (temperature, pressure, etc) in the [wiki](https://github.com/dwblair/Riffle-Getting-Started/wiki) of this repository (add your own!).
 
 **Hardware notes**.  The [Riffle_328 hardware github repository](https://github.com/OpenWaterProject/riffle) contains the design files and Bill of Materials for the board.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).
 
