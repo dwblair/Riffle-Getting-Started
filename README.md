@@ -1,6 +1,8 @@
 #Welcome!
 
-This is a set of code and instructions for getting started with the Riffle_328 water monitor, which is a datalogger directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).  Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card. 
+This is a set of code and instructions for getting started with the Riffle_328 water monitor, version 0.1.8.  The Riffle_328 is directly compatible with the Arduino IDE (it can be programmed as an "Arduino UNO" board).  
+
+Using the code in this repository, you should be able to blink the onboard LED, set the onboard Real Time Clock (RTC), and log sensor readings to the onboard microSD card. 
 
 - If you already have experience using Arduino-compatible boards, check out the [Quick Start](https://github.com/dwblair/Riffle-Getting-Started#quick-start) section below to get up and running quickly. In general, the Riffle behaves like an Arduino UNO in the Arduino IDE (you should select "Arduino UNO" as the "Board" in the IDE), but you'll need to install a **special driver** (see [Software prep](test), below) in order to program the device over USB if you're using Mac or Windows.  
 
