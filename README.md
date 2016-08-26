@@ -20,10 +20,6 @@ The Riffle_328 has been developed through many contributions by members of the [
 
 ------
 
-More code and 
-
-------
-
 
 # Quick Start
 
