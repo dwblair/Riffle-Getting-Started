@@ -12,9 +12,11 @@ This is a set of code and instructions for getting started with the Riffle_328 w
 
 - If you would prefer more detailed instructions for setting up your Riffle, please check out the [Step-by-Step Instructions](./step-by-step.markdown).
 
+- You can find some example Riffle sensor applications (temperature, pressure, etc) in the [wiki](https://github.com/dwblair/Riffle-Getting-Started/wiki) of this repository (add your own!).
+
 -----
 
-The Riffle_328 has been developed through many contributions by members of the [Public Lab](http://publiclab.org) community.  For more information, see:
+**Finding more resources**. The Riffle has been developed through many contributions by members of the [Public Lab](http://publiclab.org) community.  For more information, see:
 
 - The main [Public Lab Riffle wiki](https://publiclab.org/wiki/riffle);
 - All [posts and research notes](https://publiclab.org/search/riffle) related to the Riffle on Public Lab
