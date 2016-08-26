@@ -16,6 +16,8 @@ The Riffle_328 has been developed through many contributions by members of the [
 
 [Ben Gamari](https://github.com/bgamari)'s original [Riffle design](https://github.com/bgamari/riffle) is based on an ARM Cortex-M4 chip, the Kinetis K20.  It is a more powerful chip than the Atmel 328, but the firmware is not currently directly compatible with the Arduino IDE. 
 
+------
+
 # Quick Start
 
 ## Hardware prep
